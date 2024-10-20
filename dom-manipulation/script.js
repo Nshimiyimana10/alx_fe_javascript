@@ -42,7 +42,8 @@ function importFromJsonFile(event) {
   <input type="file" id="importFile" accept=".json" onchange="importFromJsonFile(event)" />
 
   function exportToJsonFile(){
-    const applicationJson = JSON.stringify("Blob");
+    const application = JSON.stringify("Blob");
+    const json = JSON.parse("Blob");
   }
 
   function importFromJsonFile(){
