@@ -70,13 +70,16 @@ function importFromJsonFile(event) {
   }
   
   const fetchUserData = async function(){
-    const apiUrl = '"https://jsonplaceholder.typicode.com/posts'
+    const apiUrl = 'https://jsonplaceholder.typicode.com/posts'
     const dataContainer = document.getElementById("api-data");
-  
     try {
       const response = await fetch(apiUrl);
       const users = await response.json();
       dataContainer.innerHTML = '';
+      method: "POST"
+      headers:{
+        "Content-type"
+      }
   
       console.log(users);
 
@@ -96,5 +99,5 @@ function importFromJsonFile(event) {
 };
 
 function syncQuotes(){
-    
+
 }
