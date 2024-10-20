@@ -80,7 +80,7 @@ function importFromJsonFile(event) {
       headers:{
         "Content-Type"
         setInterval((item) =>{
-            console.log("interval")
+            console.log("Quotes synced with server!");
         }, 3000)
       }
   
