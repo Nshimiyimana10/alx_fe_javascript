@@ -53,6 +53,7 @@ function importFromJsonFile(event) {
   function populateCategories(){
    const option = newQuote.value;
    option.textContent = json;
+   const selectedCategory = JSON.parse(option);
   }
   const lastCategory = localStorage.setItem("category",JSON.stringify(array[0]))
   function filterQuotes(){
