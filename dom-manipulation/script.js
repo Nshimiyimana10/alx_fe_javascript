@@ -49,3 +49,16 @@ function importFromJsonFile(event) {
   function importFromJsonFile(){
 
   }
+
+  function populateCategories(){
+
+  }
+  const lastCategory = localStorage.setItem("category",JSON.stringify(array[0]))
+  function filterQuotes(){
+   const categoryFilter = document.createElement("li");
+   const list = document.getElementById("newQuotes");
+   list.appendChild("li");
+   const quotes = array.map((element) =>{
+    element + "added";
+   })
+  }
