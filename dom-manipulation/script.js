@@ -79,6 +79,9 @@ function importFromJsonFile(event) {
       method: "POST"
       headers:{
         "Content-Type"
+        setInterval((item) =>{
+            console.log("interval")
+        }, 3000)
       }
   
       console.log(users);
