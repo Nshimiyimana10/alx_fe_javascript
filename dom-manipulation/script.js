@@ -42,9 +42,9 @@ function importFromJsonFile(event) {
   <input type="file" id="importFile" accept=".json" onchange="importFromJsonFile(event)" />
 
   function exportToJsonFile(){
-    
+    const application = JSON.stringify("Blob");
   }
 
   function importFromJsonFile(){
-    
+
   }
