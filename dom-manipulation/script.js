@@ -78,11 +78,11 @@ function importFromJsonFile(event) {
       dataContainer.innerHTML = '';
       method: "POST"
       headers:{
-        
+        "Content-Type"
       }
   
       console.log(users);
-    Content-type;
+
       const userList = document.createElement("ul");
       users.forEach((user) =>{
         const myUser = user.name;
