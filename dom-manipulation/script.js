@@ -25,6 +25,9 @@ function addQuote(){
  createAddQuoteForm();
 }
 
+const store = localStorage.setItem("Quote", array)
+const stored = localStorage.getItem("Quote");
+const saving = sessionStorage.setItem("lastViewed", lastViewed);
 function importFromJsonFile(event) {
     const fileReader = new FileReader();
     fileReader.onload = function(event) {
