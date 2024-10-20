@@ -43,7 +43,7 @@ function importFromJsonFile(event) {
 
   function exportToJsonFile(){
     const application = JSON.stringify("Blob");
-    const json = JSON.parse("Blob");
+    const json = JSON.parse("application/json");
   }
 
   function importFromJsonFile(){
