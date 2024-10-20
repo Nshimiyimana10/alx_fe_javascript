@@ -1,0 +1,4 @@
+const array = [{
+    text: "",
+    category:""
+}]
