@@ -65,4 +65,7 @@ function importFromJsonFile(event) {
    })
   }
 
+  function fetchQuotesFromServer(){
+    
+  }
   
